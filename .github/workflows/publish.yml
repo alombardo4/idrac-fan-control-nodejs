@@ -6,7 +6,7 @@ on:
   
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: idrac-fan-control
+  IMAGE_NAME: alombardo4/idrac-fan-control
 jobs:
   publish:
     name: 'Publish to GHCR'
