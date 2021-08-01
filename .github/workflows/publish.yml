@@ -33,5 +33,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: latest
+          tags: ghcr.io/alombardo4/idrac-fan-control
           labels: ${{ steps.meta.outputs.labels }}
